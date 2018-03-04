@@ -1,0 +1,25 @@
+## Site
+title: 'Aquariuslt'
+description: 'TL; DR'
+author: 'Aquariuslt'
+avator: 'https://img.aquariuslt.com/social/avator.png'
+theme: '#448aff'
+copyright: '2018 Aquariuslt'
+
+
+## Advance Features
+features:
+  manifest:
+    enable: true
+    name: 'Aquariuslt Blog'
+    short_name: 'Blog'
+    description: 'Aquariuslt Blog'
+    theme_color: '#448aff'
+    developer:
+      name: 'Aquariuslt'
+      url: 'https://github.com/aquariuslt'
+  google_site_verification: s3PYm0fCo0ImPqqXoPLiUb_bFdlYODKw54VGSkcFgyE
+
+
+## Others
+cname: 'aquariuslt.com'
