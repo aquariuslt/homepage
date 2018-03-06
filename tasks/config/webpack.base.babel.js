@@ -58,6 +58,13 @@ let webpackBaseConfig = {
           publicPath: './',
           name: '[name].[ext]'
         }
+      },
+      {
+        test: /\.properties$/,
+        use: [
+          'json-loader',
+          'enhanced-properties-loader'
+        ]
       }
     ]
   }

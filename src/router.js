@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import locale from '@/locale';
 
 Vue.use(VueRouter);
 

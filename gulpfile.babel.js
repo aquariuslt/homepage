@@ -1,3 +1,4 @@
+import './tasks/api';
 import './tasks/build';
 import './tasks/clean';
 import './tasks/serve';
