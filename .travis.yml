@@ -7,12 +7,12 @@ script: npm run test && npm run build
 after_script:
   - cat ./test/unit/coverage/lcov.info | ./node_modules/.bin/coveralls
 
-#deploy:
-#  provider: pages
-#  skip_cleanup: true
-#  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
-#  local_dir: dist
-#  repo: a-tools/a-tools.github.io
-#  target_branch: master
-#  on:
-#    branch: master
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  local_dir: dist
+  repo: a-tools/a-tools.github.io
+  target_branch: master
+  on:
+    branch: master

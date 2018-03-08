@@ -3,7 +3,7 @@ title: 'Aquariuslt Home'
 description: 'TL; DR'
 author: 'Aquariuslt'
 avator: 'https://img.aquariuslt.com/social/avator.png'
-theme: '#448aff'
+theme: '#24292e'
 copyright: '2018 Aquariuslt'
 
 entries:
@@ -30,7 +30,7 @@ features:
     name: 'Aquariuslt Home'
     short_name: 'Home'
     description: 'Aquariuslt Home'
-    theme_color: '#448aff'
+    theme_color: '#24292e'
     developer:
       name: 'Aquariuslt'
       url: 'https://github.com/aquariuslt'
