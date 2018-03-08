@@ -4237,10 +4237,6 @@ growl@1.10.3:
   version "1.10.3"
   resolved "https://registry.npmjs.org/growl/-/growl-1.10.3.tgz#1926ba90cf3edfe2adb4927f5880bc22c66c790f"
 
-gsap@^1.20.3:
-  version "1.20.4"
-  resolved "https://registry.npmjs.org/gsap/-/gsap-1.20.4.tgz#005fba2a7bfbb3b9d27bd77e1634d2bad365a86a"
-
 gulp-inject-string@^1.1.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/gulp-inject-string/-/gulp-inject-string-1.1.1.tgz#94e7a1b5d4102720edbc7491652a2c3d6e8c5bb8"
@@ -4483,10 +4479,6 @@ hawk@~6.0.2:
 he@1.1.1, he@1.1.x, he@^1.1.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
-
-highlightjs@^9.10.0:
-  version "9.10.0"
-  resolved "https://registry.npmjs.org/highlightjs/-/highlightjs-9.10.0.tgz#fca9b78ddaa3b1abca89d6c3ee105ad270a80190"
 
 hipchat-notifier@^1.1.0:
   version "1.1.0"
@@ -6096,10 +6088,6 @@ map-visit@^1.0.0:
   resolved "https://registry.npmjs.org/map-visit/-/map-visit-1.0.0.tgz#ecdca8f13144e660f1b5bd41f12f3479d98dfb8f"
   dependencies:
     object-visit "^1.0.0"
-
-marked@^0.3.7:
-  version "0.3.17"
-  resolved "https://registry.npmjs.org/marked/-/marked-0.3.17.tgz#607f06668b3c6b1246b28f13da76116ac1aa2d2b"
 
 math-expression-evaluator@^1.2.14:
   version "1.2.17"
@@ -8629,10 +8617,6 @@ smart-buffer@^1.0.13, smart-buffer@^1.0.4:
   version "1.1.15"
   resolved "https://registry.npmjs.org/smart-buffer/-/smart-buffer-1.1.15.tgz#7f114b5b65fab3e2a35aa775bb12f0d1c649bf16"
 
-smooth-scroll@^12.1.5:
-  version "12.1.5"
-  resolved "https://registry.npmjs.org/smooth-scroll/-/smooth-scroll-12.1.5.tgz#b6d8deca371a9edd5ea3ad291ef0fb7e741ed41e"
-
 smtp-connection@2.12.0:
   version "2.12.0"
   resolved "https://registry.npmjs.org/smtp-connection/-/smtp-connection-2.12.0.tgz#d76ef9127cb23c2259edb1e8349c2e8d5e2d74c1"
@@ -9757,10 +9741,6 @@ vm-browserify@0.0.4, vm-browserify@~0.0.1:
 void-elements@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz#c066afb582bb1cb4128d60ea92392e94d5e9dbec"
-
-vue-disqus@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.npmjs.org/vue-disqus/-/vue-disqus-2.0.4.tgz#bee0ba3421202a0980e3cd81e357535d3816fa55"
 
 vue-hot-reload-api@^2.2.0:
   version "2.3.0"
