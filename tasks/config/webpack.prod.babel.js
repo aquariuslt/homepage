@@ -117,7 +117,14 @@ let webpackProdConfig = merge(webpackBaseConfig, {
       renderer: new Renderer({
         renderAfterDocumentEvent: 'app-rendered',
         renderAfterTime: 5000
-      })
+      }),
+      minify: {
+        collapseBooleanAttributes: true,
+        collapseWhitespace: true,
+        decodeEntities: true,
+        keepClosingSlash: true,
+        sortAttributes: true
+      }
     })
   ],
   stats: {
