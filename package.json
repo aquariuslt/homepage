@@ -27,7 +27,6 @@
   "devDependencies": {
     "@types/chai": "^4.0.10",
     "@types/extract-text-webpack-plugin": "^3.0.0",
-    "@types/lodash": "^4.14.91",
     "@types/marked": "^0.3.0",
     "@types/mocha": "^2.2.45",
     "@types/moxios": "^0.4.8",
@@ -98,6 +97,7 @@
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "optimize-js-plugin": "^0.0.4",
     "ora": "^2.0.0",
+    "prerender-spa-plugin": "^3.1.0",
     "puppeteer": "^1.1.1",
     "rss": "^1.2.2",
     "sass-loader": "^6.0.6",

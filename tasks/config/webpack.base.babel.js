@@ -11,6 +11,7 @@ let webpackBaseConfig = {
   resolve: {
     extensions: [
       '.js',
+      '.json',
       '.vue'
     ],
     alias: {

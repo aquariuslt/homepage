@@ -39,6 +39,7 @@
         let $this = this;
         coreApi.getApplicationConfig().then((res) => {
           $this.app = res.data;
+          document.dispatchEvent(new Event('app-rendered'));
         });
       }
     }

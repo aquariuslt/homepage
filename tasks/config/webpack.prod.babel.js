@@ -9,6 +9,7 @@ import OptimizeCssAssetsPlugin from 'optimize-css-assets-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import WebpackPwaManifest from 'webpack-pwa-manifest';
 import OfflinePlugin from 'offline-plugin';
+import PrerenderSPAPlugin from 'prerender-spa-plugin';
 
 import appConfig from './app.config';
 import baseConfig from './base.config';
@@ -16,6 +17,8 @@ import webpackBaseConfig from './webpack.base.babel';
 
 import pathUtil from '../utils/path-util';
 import vueLoaderUtil from '../utils/vue-loader-util';
+
+const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 
 let webpackProdConfig = merge(webpackBaseConfig, {
   devtool: 'source-map',
@@ -107,7 +110,15 @@ let webpackProdConfig = merge(webpackBaseConfig, {
         }
       ]
     }),
-    new OfflinePlugin()
+    new OfflinePlugin(),
+    new PrerenderSPAPlugin({
+      staticDir: pathUtil.resolve(baseConfig.dir.dist),
+      routes: ['/'],
+      renderer: new Renderer({
+        renderAfterDocumentEvent: 'app-rendered',
+        renderAfterTime: 5000
+      })
+    })
   ],
   stats: {
     colors: true,
