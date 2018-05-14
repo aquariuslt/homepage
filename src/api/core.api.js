@@ -1,11 +1,8 @@
-import applicationConfig from '@/../build/api/application';
+import axios from 'axios';
 
 function getApplicationConfig() {
-  return new Promise((resolve) => {
-    resolve({
-      data: applicationConfig
-    });
-  });
+  const applicationApiUrl = '/api/application.json';
+  return axios.get(applicationApiUrl);
 }
 
 export default {
